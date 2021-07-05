@@ -1,0 +1,89 @@
+body {
+ margin: 0;
+ padding: 0;
+position: relative;
+ font-family: roboto;
+}
+
+.h1{
+   position: relative;
+    margin-top: 50px;
+    margin-left: 460px;
+    font-family: roboto;
+    margin: center;
+}
+
+.h1 :hover {
+    transition: .5s;
+    color: #999;
+}
+
+.nocoes {
+    background-color: rgba(138, 133, 133, 0.158);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 50px;
+    position: relative;
+    color: #999;
+}
+
+.pessoais {
+    background-color: rgba(138, 133, 133, 0.158);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 50px;
+    position: relative;
+    margin-left: 0px;
+    color: #999;
+}
+
+
+
+.h2{
+    position: relative;
+     margin-top: 50px;
+     margin-left: 480px;
+     font-family: roboto;
+     margin: center;
+ }
+
+ .h2 :hover {
+    transition: .5s;
+    color: #999;
+}
+
+.h3 {
+    margin-top: 15px;
+        margin-left: 160px;
+}
+
+.sobreMim {
+    text-align: justify;
+    margin-left: 405px;
+    margin-top: 15px;
+    background-color: rgba(138, 133, 133, 0.158);
+    border-radius: 5px;
+    color: #999;
+}
+
+.row :hover{
+    transition: .5s;
+    color: white;
+}
+
+.qualidades {
+    margin-top: 50px;
+    margin-left: 550px;
+}
+
+.resumoEu{
+    margin-left: 350px;
+}
+
+.container {
+   width: 100%;
+}
+
+.h33 {
+    margin-left: 100px;
+}

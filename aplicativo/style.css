@@ -1,0 +1,36 @@
+.visao {
+    margin-top: 10px;
+}
+
+.container {
+    margin: 10px;
+}
+
+.dropdown {
+    margin-left: 80%;
+}
+
+.table {
+    margin: 10px;
+}
+
+section {
+    position: relative;
+    display: flex;
+    margin: center;
+}
+
+.sectionB {
+    display: flex;
+    margin-top: 10px;
+    position: relative;
+    margin: center;
+}
+
+.button2 {
+    margin-top: 10px;
+}
+
+.button4 {
+    margin-top: 10px;
+}

@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(fundo/backgroundImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.button {
+    position: relative;
+    margin-top: 300px;
+    margin-left: 650px;
+}

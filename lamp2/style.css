@@ -1,0 +1,14 @@
+h1 {
+    color: blue;
+    color-adjust: 100px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-display: 100px;
+   font-style: oblique;
+   height: 80px;
+  margin: 50px 550px;
+}
+
+.container {
+    display: ta;
+    margin-left: 550px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC NACIONAL</title>
+</head>
+<body>
+    <h1><strong>Calculadora - IMC</strong></h1>
+
+    <div>
+        IMC é a sigla para Índice de Massa Corporal,que é um cálculo que serve para avaliar se a pessoa está dentro do seu peso ideal em relação à altura.
+        <br> Assim, de acordo com o valor do resultado de IMC, a pessoa pode saber se está dentro do peso ideal, acima ou abaixo do peso desejado. 
+        <p>
+            Estar dentro do peso certo é importante porque estar acima ou abaixo desse peso pode influenciar bastante a saúde, aumentando o risco de doenças como desnutrição quando se está abaixo do peso, e AVC ou infarto, quando se está acima do peso. <br>
+             Assim, é comum os médicos, enfermeiros e nutricionistas avaliem o IMC da pessoa nas consultas de rotina para verificar a possibilidade de doenças que a pessoa pode estar pre-disposta.
+        </p>
+        <section>
+           <strong>Nome: <input type="text" name="nome" id="nome"></strong>
+           <br> <strong>Altura: <input type="number" name="altura" id="altura" maxlength="3" ></strong>
+           <br><strong>Peso: <input type="number" name="peso" id="peso" max="3" ></strong>
+           <br><input type="button" value="Calcular" onclick="calcular()  ">
+        </section>
+        
+    </div >
+    <div id="res" >
+
+    </div>
+    <script src="imc.js"></script>
+    </div>
+</body>
+    
+</html> 

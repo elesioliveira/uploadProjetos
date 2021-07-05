@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Espaço do Aluno</title>
+  <!--BootStrap-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+          <div class="container-fluid">
+            <div class="col-sm ">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+              <a class="navbar-brand" href="#">Learning Plataform</a>
+              <!--botão-->
+              <div class="col-sm">
+                <div class="buttom">
+                  <div class="dropdown .flex-sm-row-reverse">
+                    <a class="btn btn-secondary dropdown-toggle bg-primary" href="#" role="button" id="dropdownMenuLink"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Todas Equipes
+                    </a>
+                    <!--DropDown-->
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Alguma ação</a>
+                      <a class="dropdown-item" href="#">Outra ação</a>
+                      <a class="dropdown-item" href="#">Alguma coisa aqui</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </nav>
+        </div>
+      </div>
+  </header>
+
+  <main>
+    <div class="container-fluid">
+    <section id="visao w-auto p-3">
+        <div class="col-md ">
+          <div class="visao"><button type="button" class="btn btn-primary btn-lg btn-block">Visão Turma</button></div>
+        </div>
+        <div class="col-md">
+          <div class="visao"><button type="button" class="btn btn-primary btn-lg btn-block">Visão Aluno</button></div>
+        </div>
+    </section>
+
+    <section class="sectionB d-flex bd-highlight"> 
+      <div class="container p-2 flex-fill bd-highlight" ">
+        <div class="col-sm-6"
+          <div class="button1 col-sm-6"><button type="button" class="btn btn-primary"  >Todos alunos</button></div>
+          <div class="button2 col-sm-6"><button type="button" class="btn btn-primary">Alunos na média</button></div>
+          </div>
+          <div class="container p-2 flex-fill bd-highlight"">
+            <div class="button3 col-sm-6"><button type="button" class="btn btn-primary" onclick=" resultado() " >Alunos acima da média</button></div>
+            <div class="button4 col-sm-6"><button type="button" class="btn btn-primary">Alunos abaixo da média</button></div>
+                  </div>
+          </div>
+    </section>
+    
+
+    <div class="container">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col-md">Aluno</th>
+            <th scope="col-md">Escrita</th>
+            <th scope="col-md">Conversação</th>
+            <th scope="col-md">Leitura</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Mark</th>
+            <td>7</td>
+            <td>6</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <th scope="row">Elesio</th>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <th scope="row">Marcos</th>
+            <td>8</td>
+            <td>9</td>
+            <td>5</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <script src="aluno.js"></script>
+</body>
+
+</html>
